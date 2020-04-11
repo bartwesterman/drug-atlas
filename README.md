@@ -22,7 +22,7 @@ source(paste(mydir.base,"f_roc.R",sep="/")) # loads functions for mt cor and gra
 library(gplots)
 library(DescTools)
 
-cl.data <- read.delim(paste(mywd, "/distance_sensitivity-model_input_data_literaturevsbreast.csv", sep=""), sep=",")
+cl.data <- read.delim(paste(mywd, "NatComm model.csv", sep=""), sep=",")
 cl.data$Ward_Drug_Distance <- NULL
 ~~~ 
 We start by extracting the tissue, cell line ID and drug names.
